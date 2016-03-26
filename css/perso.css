@@ -1,0 +1,33 @@
+body.big-h3 .content h3:before {
+  display: block;
+  content: '';
+  background: -webkit-linear-gradient(left, #dfe2e7 80%, rgba(223,226,231,0));
+  background: -moz-linear-gradient(left, #dfe2e7 80%, rgba(223,226,231,0));
+  background: -o-linear-gradient(left, #dfe2e7 80%, rgba(223,226,231,0));
+  background: -ms-linear-gradient(left, #dfe2e7 80%, rgba(223,226,231,0));
+  background: linear-gradient(to right, #dfe2e7 80%, rgba(223,226,231,0));
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.4);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.4);
+  height: 1px;
+  position: relative;
+  top: -40px;
+  left: -40px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .content h1,
+  .content h2,
+  .content .big-heading,
+body.big-h3 .content h3 {
+    padding-top: 40px;
+  }
+  .content h1:before,
+  .content h2:before,
+  .content .big-heading:before,
+body.big-h3 .content h3:before {
+    background: #dfe2e7;
+    left: -40px;
+    top: -20px;
+    width: 120%;
+  }
+}
