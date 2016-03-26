@@ -36,16 +36,17 @@
 .title-card h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.3em;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.1;
   margin-bottom: 0.5em;
   color: #fff; }
 
 .title-card p {
   font-family: montserrat, sans-serif;
-  color: #b8eaea;
+  color: #9090aa
   font-weight: bold;
   font-size: 1.3em; }
+/* color: #b8eaea; */
 
 .title-card h5 {
   margin-top: 150px;
