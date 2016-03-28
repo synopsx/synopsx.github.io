@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+
+  Instructions:
+
+  - Save this file.
+  - Replace "USER" with your GitHub username.
+  - Replace "REPO" with your GitHub repo name.
+  - Replace "Your Project" with your project name.
+  - Upload this file (or commit to GitHub Pages).
+
+  Customize as you see fit!
+
+-->
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width"/>
+
+  <title>SynopsX</title>
+
+  <!-- Flatdoc -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
+
+  <!-- Flatdoc theme -->
+  <link  href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'/>
+  <link  href='css/perso.css' rel='stylesheet'/>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
+  <script src='js/perso.js'></script>
+
+  <!-- Meta -->
+  <meta content="synopsx.github.io" property="og:site_name">
+  <meta content="SynopsX" property="og:title">
+  <meta content="SynopsX is a lightweight framework to publish and expose XML corpus." name="description">
+  <meta content="website" property="og:type">
+  <meta content="SynopsX is a lightweight framework to publish and expose XML corpus." property="og:description">
+
+
+  <!-- Initializer -->
+  <script>
+    Flatdoc.run({
+      fetcher: Flatdoc.github('reference.md')
+    });
+  </script>
+</head>
+<body role='flatdoc' class='big-h3 large-brief'>
+
+  <div class='title-area title-card' style='background-image: url(image/taraxacum.jpg)'>
+    <!-- Martin Fisch, 2010 https://flic.kr/p/85sKs4 -->
+    <div class='in'>
+      <div class='headline'>
+        <h1>XML publication like a breath</h1>
+        <p>SynopsX is a lightweight framework to easily publish and expose XML corpus.</p>
+        <h5><span>SynopsX</span></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class='header'>
+    <div class='left'>
+      <h1>SynopsX</h1>
+      <ul>
+        <li><a href='https://github.com/synopsx/synopsx'>View on GitHub</a></li>
+        <li><a href='https://github.com/synopsx/synopsx/issues'>Issues</a></li>
+        <li><a href="http://synopsx.github.io/reference.html">Reference</a></li>
+      </ul>
+    </div>
+    <div class='right'>
+      <!-- GitHub buttons: see http://ghbtns.com -->
+      <iframe src="http://ghbtns.com/github-btn.html?user=synopsx&amp;repo=synopsx&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+      <iframe src="https://ghbtns.com/github-btn.html?user=synopsx&repo=synopsx&type=fork&count=true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+    </div>
+  </div>
+
+  <div class='content-root'>
+    <div class='menubar'>
+      <div class='menu section' role='flatdoc-menu'></div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
+
+</body>
+</html>
